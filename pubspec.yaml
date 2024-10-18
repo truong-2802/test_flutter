@@ -1,0 +1,27 @@
+name: Quan_ly_tranh
+description: Quản lý tranh Flutter app
+
+publish_to: 'none' # Remove this line if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.1  # For SQLite database functionality
+  path_provider: ^2.0.11  # For finding commonly used locations on the filesystem
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  image_path: "assets/images/tranh_anh.png" # Đường dẫn tới file biểu tượng mới của bạn
